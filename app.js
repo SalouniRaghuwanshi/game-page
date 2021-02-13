@@ -94,3 +94,10 @@ function six(){
 function stop(){
    clearInterval(y);
 }
+function todayDate(){
+    var d = new Date();
+    var y = d.getFullYear();
+    var m=d.getMonth()+1; 
+    var day=d.getDate();
+    return document.getElementById("date").innerHTML ="  "+day+":"+m+":"+y ;
+  }
