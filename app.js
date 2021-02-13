@@ -92,5 +92,5 @@ function six(){
     }  
 }
 function stop(){
-   clearInterval(y) 
+   clearInterval(y);
 }
